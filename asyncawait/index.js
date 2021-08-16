@@ -15,12 +15,22 @@ const init = async () => {
     const contents1 = await readFile('./files/music1.txt', 'utf8');
     const contents2 = await readFile('./files/music2.txt', 'utf8');
 
-    console.log(contents1);
-    console.log('');
-    console.log(contents2);
+    return contents1 + '\n\n' + contents2;
   } catch (err) {
     console.log(err);
   }
 };
 
-init();
+//init().then(console.log);
+
+//init().then(contents => console.log(contents));
+
+//init().then(contents => console.log(contents));
+
+/*
+function result(contents) {
+  console.log(contents);
+}
+
+init().then(result);
+*/
