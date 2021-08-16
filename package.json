@@ -1,0 +1,24 @@
+{
+  "name": "learning_async_await",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/juniormartinxo/learning_async_await.git"
+  },
+  "author": "Junior Martins <amjr.box@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juniormartinxo/learning_async_await/issues"
+  },
+  "homepage": "https://github.com/juniormartinxo/learning_async_await#readme",
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1"
+  }
+}
